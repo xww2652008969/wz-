@@ -30,7 +30,7 @@ def getcookie():
     denglu=requests.session()
     data={}
     data['Login.Token1']='1817404059'
-    data['Login.Token2']='cc39f38ac49ed223ea53970e8efca90bf1e92d37'
+    data['Login.Token2']='你的密码md5'
     data['goto']='http://erp.sdwz.cn/loginSuccess.portal'
     data['gotoOnFail']='http://erp.sdwz.cn/loginFailure.portal'
     b=denglu.post(login_url,data=data)
